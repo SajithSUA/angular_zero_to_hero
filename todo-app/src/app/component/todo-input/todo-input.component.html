@@ -1,0 +1,9 @@
+<div>
+  <input type="text" [(ngModel)]="userName" />
+  <button (click)="onClick()">add me</button>
+</div>
+
+<!-- parent to children data pass   [toDo]="todo"-->
+<!-- children to parent  data pass  (delete)="onDelete($event)"-->
+
+<app-todo-output *ngFor="let todo of todos" [toDo]="todo" (delete)="onDelete($event)"></app-todo-output>
