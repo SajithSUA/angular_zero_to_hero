@@ -1,0 +1,73 @@
+.output-s1 {
+    border-style: solid;
+    border-width: 2px;
+    border-left-width: 7px;
+    border-radius: 10px;
+    border-color: rgba(5, 54, 119, 0.753);
+    background-color: rgba(13, 63, 109, 0.027);
+    padding: 10px;
+    margin: 10px;
+}
+
+.output-s1:hover {
+    border-color: rgba(5, 54, 119, 0.87);
+    background-color: rgba(13, 63, 109, 0.171);
+}
+
+.output-s2 {
+    border-style: double;
+    border-left-width: 7px;
+    border-color: rgba(241, 7, 46, 0.705);
+    background-color: rgba(109, 24, 13, 0.027);
+    padding: 10px;
+    margin: 10px;
+}
+
+.output-s2:hover {
+    border-color: rgba(241, 7, 46, 0.877);
+    background-color: rgba(109, 24, 13, 0.192);
+}
+
+.style-button-s1 {
+    float: right;
+    border-radius: 100px;
+    border-width: 2px;
+    background-color: rgba(241, 7, 46, 0.959);
+    color:white;
+}
+
+.style-button-s1:hover {
+    background-color: rgba(241, 7, 46, 0.904);
+    color:white;
+}
+
+.style-button-s2 {
+    float: right;
+    border-radius: 100px;
+    border-width: 2px;
+    background-color: rgba(18, 99, 206, 0.753);
+    color:white;
+}
+
+.style-button-s2:hover {
+    background-color: rgba(18, 99, 206, 0.753);
+    color:white;
+}
+
+
+
+.delete 
+{
+    background-color: #f1f3ec00;
+    border-style: none;
+    color: red;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

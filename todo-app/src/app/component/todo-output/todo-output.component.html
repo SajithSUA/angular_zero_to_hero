@@ -1,4 +1,10 @@
-<div>{{toDo}}</div>
-<div>
-  <button (click)="onDelete(toDo)">delete</button>
+<!-- we can change style using property binding -->
+<div [class]="styleDiv">
+  <div>
+    <span class="text"> {{toDo}} </span>
+    <button class="delete" (click)="onDelete(toDo)">X</button>
+
+    <!-- we can change style using property binding -->
+    <button [class] = "styleButton" (click)="onchange()">change style</button>
+  </div>
 </div>
