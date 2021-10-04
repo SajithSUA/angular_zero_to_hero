@@ -1,0 +1,28 @@
+<!-- Angular form example  -->
+<div class="login-box">
+  <h2>Enter user Details</h2>
+
+  <!-- initialize ng form with name myform -->
+  <form #myform="ngForm" (ngSubmit)="onSubmit(myform)" novalidate>
+
+    <div class="user-box">
+      <!-- create input with requier validation. need name bcz name is object name for form object -->
+      <input name="name" ngModel required #name="ngModel">
+      <label>Username</label>
+    </div>
+
+    <div class="user-box">
+      <input name="email" ngModel required #email="ngModel">
+      <label>Email</label>
+    </div>
+
+    <div class="user-box">
+      <input name="phoneNo" ngModel required #phoneNo="ngModel">
+      <label>Phone Number</label>
+    </div>
+    
+    <button [disabled] = "!myform.valid" type="submit"> 
+      Submit
+    </button>
+  </form>
+</div>
